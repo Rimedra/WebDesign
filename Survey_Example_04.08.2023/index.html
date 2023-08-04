@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survey Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="navbar">
+  
+  <div class="nav-ul">
+  <ul>
+    <li>
+      <a href="">Home</a>
+    </li>
+    <li>
+      <a href="">About</a>
+    </li>
+    <li>
+      <a href="">Contact</a>
+    </li>
+  </ul>
+</div>
+</div>
+<section class="section-question" id="section-question">
+  <div>
+    <h1 class="nav-h1">
+      Survey Form
+    </h1>
+    <p>Thank you for taking the time to answer these questions. The following questions
+       are about to know how well known and successful is ...</p>
+  </div>
+  <form action="" method="post">
+    
+  <div class="questions">
+    <h2 class="question-h2">What is your name?</h2>
+    <input type="text" name="name" placeholder="Enter your name" class="question-input">
+  </div>
+  
+  <div class="questions">
+    <h2 class="question-h2">How old are you?</h2>
+    <input type="radio" name="age" value="under 18"><label> Under 18</label><br>
+    <input type="radio" name="age" value="18-24"><label> 18-24</label><br>
+    <input type="radio" name="age" value="25-34"><label> 25-34</label><br>
+    <input type="radio" name="age" value="35-44"><label> 35-44</label><br>
+    <input type="radio" name="age" value="45 or more"><label> 45 or more</label><br>
+  </div>
+  <div class="questions">
+  <h2 class="question-drown">Where did you learn about ...?</h2>
+  <select class="question">
+    <option value="" disabled selected>Select an option</option>"
+    <option value="google">Google</option>
+    <option value="facebook">Facebook</option>
+    <option value="twitter">Twitter</option>
+    <option value="instagram">Instagram</option>
+    <option value="linkedin">Linkedin</option>
+    <option value="youtube">Youtube</option>
+    <option value="other">Other</option>
+    <option value="none">None</option>
+  </select>
+  </div>
+  <div class="questions">
+    <h2 class="question-h2">How often do you visit ...?</h2>
+    <input type="radio" name="visit" value="daily"><label> Daily</label><br>
+    <input type="radio" name="visit" value="weekly"><label> Weekly</label><br>
+    <input type="radio" name="visit" value="monthly"><label> Monthly</label><br>
+    <input type="radio" name="visit" value="yearly"><label> Yearly</label><br>
+    <input type="radio" name="visit" value="never"><label> Never</label><br>
+  
+  </form>
+  </div>
+  <div class="questions">
+    <h2>Do you purchase goods from ..?</h2> 
+    <input type="checkbox" name="purchase" value="yes"><label> Yes</label><br>
+    <input type="checkbox" name="purchase" value="no"><label> No</label><br>
+    
+  </div>
+  <div class="questions">
+    <h2>Gender?</h2>
+    <select>
+      <option value="" disabled selected>Select an option</option>"
+      <option value="man">Man</option>
+      <option value="woman">Woman</option>
+      
+    </select>
+
+  </div>
+  <div class="question">
+    <h2>How satisfied are you with our website?</h2>
+    <input type="radio" name="satisfied" value="very satisfied"><label> Very satisfied</label><br>
+  
+    <input type="radio" name="satisfied" value="satisfied"><label> Satisfied</label><br>
+    <input type="radio" name="satisfied" value="neutral"><label> Neutral</label><br>
+    <input type="radio" name="satisfied" value="unsatisfied"><label> Unsatisfied</label><br>
+    <input type="radio" name="satisfied" value="very unsatisfied"><label> Very unsatisfied</label><br>
+
+  </div>
+  <div>
+    <h2>How likely are you to recommend ... to a friend or colleague?</h2>
+    <input type="radio" name="recommend" value="very likely"><label> Very likely</label><br>
+    <input type="radio" name="recommend" value="likely"><label> Likely</label><br>
+    <input type="radio" name="recommend" value="neutral"><label> Neutral</label><br>
+    <input type="radio" name="recommend" value="unlikely"><label> Unlikely</label><br>
+    <input type="radio" name="recommend" value="very unlikely"><label> Very unlikely</label><br>
+
+  </div>
+  <div class="question">
+    <h2>What do you like about ...?</h2>
+    <textarea name="like" rows="8" cols="80" placeholder="Enter your answer here"></textarea>
+  </div>
+  <div class="question">
+    <h2>What do you dislike about ...?</h2>
+    <textarea name="dislike" rows="8" cols="80" placeholder="Enter your answer here"></textarea>
+  </div>
+  <div class="question">
+    <h2>What would you like to see improved?</h2>
+    <textarea name="improved" rows="8" cols="80" placeholder="Enter your answer here"></textarea>
+  </div>
+  <div class="question">
+    <h2>What other features would you like to see added?</h2>
+    <textarea name="features" rows="8" cols="80" placeholder="Enter your answer here"></textarea>
+  </div>
+  <div>
+    <h2>How likely are you to use ... in the future?</h2>
+    <input type="radio" name="future" value="very likely"><label> Very likely</label><br>
+    <input type="radio" name="future" value="likely"><label> Likely</label><br>
+    <input type="radio" name="future" value="neutral"><label> Neutral</label><br>
+    <input type="radio" name="future" value="unlikely"><label> Unlikely</label><br>
+    <input type="radio" name="future" value="very unlikely"><label> Very unlikely</label><br>
+
+  </div>
+  <div>
+    <h2>What factors motivated you to purches on our site?</h2>
+    <input type="checkbox" name="motivated" value="price"><label> Price</label><br>
+    <input type="checkbox" name="motivated" value="quality"><label> Quality</label><br>
+    <input type="checkbox" name="motivated" value="brand name"><label> Brand Name</label><br>
+    <input type="checkbox" name="motivated" value="reviews"><label> Reviews</label><br>
+    <input type="checkbox" name="motivated" value="shipping options"><label> Shipping Options</label><br>
+    <input type="checkbox" name="motivated" value="payment options"><label> Payment Options</label><br>
+    <input type="checkbox" name="motivated" value="other"><label> Other</label><br>
+  </div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Factors</th>
+          <th>Not Important</th>
+          <th>Somewhat Important</th>
+          <th>Maybe</th>
+          <th>Important</th>
+          <th>Very Important</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr >
+          <th>
+            <label for="price">Price</label>
+          </th>
+            <td class="td-center">
+            <input type="radio" name="price" value="not important">
+            <span></span>
+            </td>      
+            <td class="td-center">
+            <input type="radio" name="price" value="somewhat important">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="price" value="maybe">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="price" value="important">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="price" value="very important">
+            <span></span>
+            </td>
+           
+            
+        </tr>
+        <tr>
+          <th>
+            <label for="quality">Quality</label>
+
+          </th>
+          <td class="td-center">
+          <input type="radio" name="quality" value="not important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="quality" value="somewhat important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="quality" value="maybe">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="quality" value="important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="quality" value="very important">
+          <span></span>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="brand name">Brand Name</label>
+
+          </th>
+
+          <td class="td-center"> 
+          <input type="radio" name="brand name" value="not important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="brand name" value="somewhat important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="brand name" value="maybe">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="brand name" value="important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="brand name" value="very important">
+          <span></span>
+          </td>
+
+        </tr>
+        <tr>
+          <th>
+            <label for="reviews">Reviews</label>
+
+          </th>
+          <td class="td-center">
+          <input type="radio" name="reviews" value="not important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="reviews" value="somewhat important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="reviews" value="maybe">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="reviews" value="important">
+          <span></span>
+          </td>
+          <td class="td-center">
+          <input type="radio" name="reviews" value="very important">
+          <span></span>
+          </td>
+        <tr>
+          <tr>
+            <th>
+              <label for="shipping options">Shipping Options</label>
+
+            </th>
+            <td class="td-center">
+            <input type="radio" name="shipping options" value="not important">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="shipping options" value="somewhat important">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="shipping options" value="maybe">
+            <span></span>
+            </td>
+            <td class="td-center"> 
+            <input type="radio" name="shipping options" value="important">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="shipping options" value="very important">
+
+          </tr>
+          <tr>
+            <th>
+              <label for="payment options">Payment Options</label>
+            </th>
+            <td class="td-center">  
+            <input type="radio" name="payment options" value="not important">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="payment options" value="somewhat important">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="payment options" value="maybe">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="payment options" value="important">
+            <span></span>
+            </td>
+            <td class="td-center">
+            <input type="radio" name="payment options" value="very important">
+            <span></span>
+            </td>
+
+          </tr>
+
+        
+      </tbody>
+    </table>
+    
+  </div>
+  <div>
+    <h2>Please Grade other websites on the overall content.</h2>
+    <select>
+      <option value="" disabled select>Select</option>
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="average">Average</option>
+      <option value="poor">Poor</option>
+      <option value="very poor">Very Poor</option>
+
+    </select>
+  </div>
+  <div class="question">
+    <h2>What is your email address?</h2>
+    <input type="email" name="email" placeholder="Enter your email address" class="question-input">
+  </div>
+  <div class="button-div">
+    <button type="submit" class="button">Submit</button>
+  </div>
+
+</section>
+
+</body>
+</html>
+<!--
+TUNAHAN DEMİR -Rimedra-
+-->
